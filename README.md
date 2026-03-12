@@ -1,89 +1,159 @@
 # ☁️ Weather Forecast App
 
-![HTML](https://img.shields.io/badge/HTML5-Structure-orange)
-![CSS](https://img.shields.io/badge/CSS3-Styling-blue)
-![JavaScript](https://img.shields.io/badge/JavaScript-Logic-yellow)
-![API](https://img.shields.io/badge/API-Weather%20Data-green)
+![HTML](https://img.shields.io/badge/Frontend-HTML%20%7C%20CSS%20%7C%20JavaScript-orange)
+![Node.js](https://img.shields.io/badge/Backend-Node.js-green)
+![Express](https://img.shields.io/badge/Framework-Express.js-black)
+![API](https://img.shields.io/badge/API-Weather%20API-blue)
 
-A web application that fetches and displays **real-time weather information** for a given city using a weather API.
-
----
-
-## 📖 Overview
-
-The **Weather Forecast App** allows users to search for any city and view its **current weather conditions**.
-
-The application demonstrates:
-
-- API integration  
-- JavaScript fetch requests  
-- Dynamic DOM manipulation  
-- Displaying live data from external services  
+A full-stack weather forecast web application that fetches and displays real-time weather information for any city using a weather API.
 
 ---
 
-## ✨ Features
+# 📖 Overview
+
+The **Weather Forecast App** allows users to search for a city and view its current weather conditions such as:
+
+- Temperature
+- Weather condition
+- Humidity
+- Wind information
+
+The project demonstrates how a **frontend interface interacts with a backend server**, which then retrieves weather data from an external API.
+
+---
+
+# ✨ Features
 
 ✔ Search weather by city name  
-✔ Display real-time temperature and weather condition  
-✔ Fetch live weather data from an API  
-✔ Dynamic UI updates using JavaScript  
-✔ Simple and responsive user interface  
+✔ Real-time weather data retrieval  
+✔ Weather condition icons and animations  
+✔ Backend server for API requests  
+✔ Clean and responsive user interface  
 
 ---
 
-## 🛠 Technologies Used
+# 🛠 Technologies Used
 
-- 🌐 HTML5 – Page structure  
-- 🎨 CSS3 – Styling and layout  
-- ⚡ JavaScript – API integration and logic  
-- ☁️ Weather API – Fetching real-time weather data  
+## Frontend
+- HTML5
+- CSS3
+- JavaScript
 
----
+## Backend
+- Node.js
+- Express.js
 
-## 📂 Project Structure
-
-weather-forecast-app  
-│  
-├── index.html  
-├── style.css  
-├── script.js  
+## Other Tools
+- Weather API
+- npm
 
 ---
 
-## ⚙️ How It Works
+# 📂 Project Structure
 
-1. User enters a **city name**  
-2. JavaScript sends a request to the **weather API**  
-3. The API returns weather data in **JSON format**  
-4. JavaScript processes the data and updates the webpage dynamically  
+```
+weather-forecast-app
+│
+├── .github
+│   └── copilot-instructions.md
+│
+├── docs
+│   ├── index.html
+│   ├── script.js
+│   ├── style.css
+│   └── images
+│       ├── clear.svg
+│       ├── clouds.svg
+│       ├── rain.svg
+│       ├── snow.svg
+│       └── ...
+│
+├── weather-backend
+│   ├── server.js
+│   ├── package.json
+│   ├── package-lock.json
+│   ├── .env
+│   └── .gitignore
+│
+└── README.md
+```
+
+*Note:* The `node_modules` folder is not included here because it is automatically generated when dependencies are installed.
 
 ---
 
-## ▶️ How to Run the Project
+# ⚙️ How It Works
 
-1. Clone the repository
+1. The user enters a **city name** in the search field.
+2. The frontend sends a request to the **Node.js backend server**.
+3. The backend fetches weather data from a **Weather API**.
+4. The server returns the data to the frontend.
+5. The frontend dynamically updates the UI with weather information.
 
+---
+
+# ▶️ How to Run the Project
+
+## 1️⃣ Clone the repository
+
+```bash
 git clone https://github.com/ekbalshah-dev/weather-forecast-app.git
+```
 
-2. Navigate to the project folder
+## 2️⃣ Navigate to the project folder
 
-3. Open **index.html** in a browser
+```bash
+cd weather-forecast-app
+```
+
+## 3️⃣ Install backend dependencies
+
+```bash
+cd weather-backend
+npm install
+```
+
+## 4️⃣ Add API Key
+
+Create a `.env` file inside the **weather-backend** folder and add your weather API key:
+
+```
+API_KEY=your_weather_api_key_here
+```
+
+## 5️⃣ Start the backend server
+
+```bash
+node server.js
+```
+
+## 6️⃣ Open the frontend
+
+Open the file:
+
+```
+docs/index.html
+```
+
+in your browser.
 
 ---
 
-## 🎯 Purpose of the Project
+# 🎯 Purpose of the Project
 
-The purpose of this project is to practice:
+This project was built to practice:
 
-- Working with APIs  
-- Handling JSON data  
-- Building dynamic web applications using JavaScript  
+- Full-stack web development
+- API integration
+- Backend server creation with Node.js
+- Dynamic UI updates using JavaScript
 
 ---
 
-## 👨‍💻 Author
+# 👨‍💻 Author
 
 **Ekbal Shah**  
-🎓 B.Sc Computer Science Student  
-📍 Bengaluru, India
+B.Sc Computer Science Student  
+Bengaluru, India  
+
+GitHub: https://github.com/ekbalshah-dev
