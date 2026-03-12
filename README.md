@@ -12,7 +12,7 @@ A full-stack weather forecast web application that fetches and displays real-tim
 ## 🚀 Live Demo
 
 View the project here:  
-https://ekbalshah-dev.github.io/personal-portfolio-app/
+https://ekbalshah-dev.github.io/weather-forecast-app/
 
 ---
 
