@@ -9,6 +9,13 @@ A full-stack weather forecast web application that fetches and displays real-tim
 
 ---
 
+## 🚀 Live Demo
+
+View the project here:  
+https://ekbalshah-dev.github.io/personal-portfolio-app/
+
+---
+
 # 📖 Overview
 
 The **Weather Forecast App** allows users to search for a city and view its current weather conditions such as:
